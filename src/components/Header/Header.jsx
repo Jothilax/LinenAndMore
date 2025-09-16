@@ -27,6 +27,7 @@ function Header() {
           <li><Link to="/about" onClick={() => setIsOpen(false)}>ABOUT US</Link></li>
           <li><Link to="/service" onClick={() => setIsOpen(false)}>INFRASTRUCTURE</Link></li>
           <li><Link to="/product" onClick={() => setIsOpen(false)}>OUR PRODUCTS</Link></li>
+          <li><Link to="/pimaCotton" onClick={() => setIsOpen(false)}>PIMA COTTON</Link></li>
           <li><Link to="/contact" onClick={() => setIsOpen(false)}>CONTACT US</Link></li>
         </ul>
       </nav>

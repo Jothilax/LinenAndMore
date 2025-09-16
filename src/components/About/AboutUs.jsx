@@ -6,6 +6,8 @@ import aboutImg from '../../assets/about/abtimg.jpg';
 import abt1 from '../../assets/about/abt1.jpg';
 import abt2 from '../../assets/about/abt2.jpg';
 import abt3 from '../../assets/about/abt3.jpg';
+import ceo from '../../assets/about/ceo2.jpg'
+import sentil from '../../assets/about/sentil.jpg';
 
 function AboutUs() {
   return (
@@ -40,20 +42,41 @@ function AboutUs() {
       {/* CEO & GM in one row */}
       <div className={styles.leaders}>
         <div className={styles.founder}>
-          <img src={founder} alt="Founder - Marco Abergel" />
-          <h4 className={styles.name}>Marco Abergel</h4>
+          <img src={founder} alt="Founder, Marco Abergel" />
+          <h4 className={styles.name}>Marco Abergel, Founder</h4>
           <p>
             Marco Abergel is a hands-on Chief Executive Officer (CEO) with over 30 years of experience managing production companies and supply chains worldwide. Mr. Abergel has a successful track record in creation and execution of large scale and complex projects, improving overall company effectiveness and maximizing revenue generation.
           </p>
         </div>
 
         <div className={styles.gm}>
-          <img src={gm} alt="General Manager - Robinson" />
-          <h4 className={styles.name}>Robinson</h4>
+          <img src={ceo} alt="Liat Shimshon, Vice President" />
+          <h4 className={styles.name}>Liat Shimshon, Vice President</h4>
+          <p>
+          With over 35 years of global experience in the textile and home furnishing industry, Liat Shimshon brings unmatched expertise and vision to Israel Linen and More India Pvt. Ltd.. She has played a pivotal role in building strong partnerships between Israel and India, driving growth through innovation, quality, and sustainable practices. Her leadership continues to inspire teams and strengthen the company’s global presence.
+          </p>
+        </div>
+      </div>
+
+      <div className={styles.leaders}>
+     
+        <div className={styles.gm}>
+          <img src={gm} alt="General Manager, Robinson" />
+          <h4 className={styles.name}>Robinson, General Manager</h4>
           <p>
             Our Coimbatore operations are led by our General Manager, Robinson, a seasoned professional with extensive expertise in the textile industry. With 35 years of hands-on experience in managing large-scale operations and driving sustainable growth, he plays a key role in strengthening our company’s presence in India.
           </p>
         </div>
+
+        <div className={styles.founder}>
+          <img src={sentil} alt="Senthilkumar, Chief Executive Officer" />
+          <h4 className={styles.name}>Senthilkumar, Chief Executive Officer</h4>
+          <p>
+          Senthilkumar brings over 13 years of experience in the textile industry and holds a B.Tech in Textile Technology. As the CEO of Israel Linen and More India Pvt. Ltd., he leads with deep technical knowledge, strategic vision, and a passion for innovation. His expertise in textile production, operations, and business management has been instrumental in strengthening the company’s market presence and commitment to quality.
+          </p>
+        </div>
+
+
       </div>
 
       {/* Gallery */}
