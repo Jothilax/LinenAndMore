@@ -1,0 +1,25 @@
+# netlify.toml
+
+[build]
+  publish = "dist"
+  command = "npm run build" # or your actual build command
+
+# Serve sitemap.xml correctly
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+  force = true
+
+# Optional: other static files you want to serve as-is
+# [[redirects]]
+#   from = "/robots.txt"
+#   to = "/robots.txt"
+#   status = 200
+#   force = true
+
+# SPA catch-all redirect (keep at the bottom)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
