@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import styles from "./home.module.css";
-import Vedio from "../../assets/home.mp4";
+import Vedio from "../../assets/home1.mp4";
 import home1 from "../../assets/home1.jpg";
 import p1 from "../../assets/products/prd1.jpg";
 import p2 from "../../assets/products/prd2.jpg";

@@ -42,7 +42,7 @@ function AboutUs() {
       {/* CEO & GM in one row */}
       <div className={styles.leaders}>
         <div className={styles.founder}>
-          <img src={founder} alt="Founder, Marco Abergel" />
+          <img src={founder} alt="Marco Abergel, Founder" />
           <h4 className={styles.name}>Marco Abergel, Founder</h4>
           <p>
             Marco Abergel is a hands-on Chief Executive Officer (CEO) with over 30 years of experience managing production companies and supply chains worldwide. Mr. Abergel has a successful track record in creation and execution of large scale and complex projects, improving overall company effectiveness and maximizing revenue generation.
@@ -60,21 +60,23 @@ function AboutUs() {
 
       <div className={styles.leaders}>
      
+        <div className={styles.founder}>
+          <img src={sentil} alt="Senthilkumar, Chief Operating Officer" />
+          <h4 className={styles.name}>Senthilkumar, Chief Operating Officer</h4>
+          <p>
+          Senthilkumar brings over 13 years of experience in the textile industry and holds a B.Tech in Textile Technology. As the CEO of Israel Linen and More India Pvt. Ltd., he leads with deep technical knowledge, strategic vision, and a passion for innovation. His expertise in textile production, operations, and business management has been instrumental in strengthening the company’s market presence and commitment to quality.
+          </p>
+        </div>
+
         <div className={styles.gm}>
-          <img src={gm} alt="General Manager, Robinson" />
-          <h4 className={styles.name}>Robinson, General Manager</h4>
+          <img src={gm} alt="Robinson, Vice President" />
+          <h4 className={styles.name}>Robinson, Vice President</h4>
           <p>
             Our Coimbatore operations are led by our General Manager, Robinson, a seasoned professional with extensive expertise in the textile industry. With 35 years of hands-on experience in managing large-scale operations and driving sustainable growth, he plays a key role in strengthening our company’s presence in India.
           </p>
         </div>
 
-        <div className={styles.founder}>
-          <img src={sentil} alt="Senthilkumar, Chief Executive Officer" />
-          <h4 className={styles.name}>Senthilkumar, Chief Executive Officer</h4>
-          <p>
-          Senthilkumar brings over 13 years of experience in the textile industry and holds a B.Tech in Textile Technology. As the CEO of Israel Linen and More India Pvt. Ltd., he leads with deep technical knowledge, strategic vision, and a passion for innovation. His expertise in textile production, operations, and business management has been instrumental in strengthening the company’s market presence and commitment to quality.
-          </p>
-        </div>
+        
 
 
       </div>
