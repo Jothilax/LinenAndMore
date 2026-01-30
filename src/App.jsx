@@ -17,6 +17,16 @@ function App() {
       <div className={styles.App}>
       <Header/>
       <Routes>
+  <Route path='/' element={<Home/>}/>
+  <Route path='/home' element={<Home/>}/>
+  <Route path='/about' element={<AboutUs/>}/>
+  <Route path='/products' element={<Product/>}/>
+  <Route path='/services' element={<Service/>}/>
+  <Route path='/pima-cotton' element={<Pima/>}/> 
+  <Route path='/contact' element={<Contact/>}/>
+</Routes>
+
+      {/* <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/home' element={<Home/>}/>
       <Route path='/about' element={<AboutUs/>}/>
@@ -25,7 +35,7 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/pimaCotton' element={<Pima/>}/>
 
-    </Routes>
+    </Routes> */}
     <Footer/>
     </div>
     
