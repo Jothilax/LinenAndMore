@@ -9,17 +9,20 @@ export default function Footer() {
         <div className={styles.contact}>
           <h3>📌 Get In Touch</h3>
           <p>
-            <strong>Email:</strong>{" "}
-            <a href="mailto:support@lamlinen.com">support@lamlinen.com</a>
+            <strong>Email : </strong>{" "}
+            <a href="mailto:senthil@lamlinen.com">senthil@lamlinen.com</a> |{" "}
+            <a href="mailto:robinson@lamlinen.com">robinson@lamlinen.com</a>
           </p>
           <p>
-            <strong>Phone:</strong>{" "}
+            <strong>Phone : </strong>{" "}
+            <a href="tel:+919965054147">+91 99650 54147</a> |{" "}
             <a href="tel:+919566380568">+91 95663 80568</a>
           </p>
           <p>
-            <strong>Address:</strong> <br />
-            5/405 Kamanayakanpalayam Road, <br />
-            Karadivavi, Palladam, Tirupur - 641658, India
+            <strong>Address : </strong> 
+           <span>
+             55/405, Kamanayakanpalayam Road, Karadivavi, Palladam, Tiruppur District, Tamil Nadu – 641658, India
+            </span>
           </p>
         </div>
 

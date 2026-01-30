@@ -64,7 +64,7 @@ function AboutUs() {
           <img src={sentil} alt="Senthilkumar, Chief Operating Officer" />
           <h4 className={styles.name}>Senthilkumar, Chief Operating Officer</h4>
           <p>
-          Senthilkumar brings over 13 years of experience in the textile industry and holds a B.Tech in Textile Technology. As the CEO of Israel Linen and More India Pvt. Ltd., he leads with deep technical knowledge, strategic vision, and a passion for innovation. His expertise in textile production, operations, and business management has been instrumental in strengthening the company’s market presence and commitment to quality.
+          Senthilkumar brings over 13 years of experience in the textile industry and holds a B.Tech in Textile Technology. As the COO of Linen and More India Pvt. Ltd., he leads with deep technical knowledge, strategic vision, and a passion for innovation. His expertise in textile production, operations, and business management has been instrumental in strengthening the company’s market presence and commitment to quality.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ function AboutUs() {
           <img src={gm} alt="Robinson, Vice President" />
           <h4 className={styles.name}>Robinson, Vice President</h4>
           <p>
-            Our Coimbatore operations are led by our General Manager, Robinson, a seasoned professional with extensive expertise in the textile industry. With 35 years of hands-on experience in managing large-scale operations and driving sustainable growth, he plays a key role in strengthening our company’s presence in India.
+            Our Coimbatore operations are led by our Vice President, Robinson, a seasoned professional with extensive expertise in the textile industry. With 35 years of hands-on experience in managing large-scale operations and driving sustainable growth, he plays a key role in strengthening our company’s presence in India.
           </p>
         </div>
 
